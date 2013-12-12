@@ -80,6 +80,24 @@ footer {
 .navtext {
     color: #fff;
 }
+.design-section {
+  background-color: #4EA869;
+  padding: 10px 0px;
+}
+.tech-section {
+  background-color: #526094;
+  padding: 10px 0px;
+}
+article p {
+  color: #fff;
+}
+article h4 {
+  color: #fff;
+}
+.view {
+  color: #fff;
+  text-decoration: underline;
+}
 
 
 
