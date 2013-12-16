@@ -71,7 +71,7 @@ footer {
   font-size: 14px;
   padding: 20px 0px;
 }
-.nav {
+.navbar {
   background-color: #02c381;
   border-radius: 3px;
   padding: 10px 25px;
@@ -97,6 +97,20 @@ article h4 {
 .view {
   color: #fff;
   text-decoration: underline;
+}
+.images a:hover {
+  background-color: #4EA869;
+}
+.usp {
+  list-style-image: url("../img/uspStar.png");
+  vertical-align: middle;
+  font-size: 14px;
+  color: #666;
+  line-height: 28px;
+  padding-left: 20px;
+}
+.date {
+  float: right;
 }
 
 

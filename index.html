@@ -6,7 +6,7 @@
     <meta name="description" content="Nico.github.io : My personal website" />
     <link rel="stylesheet" href="stylesheets/foundation.css" media="screen" type="text/css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css"/>
-
+    <link href="css/lightbox.css" rel="stylesheet" />
 
     <title>Alex Nicolaides Portfolio</title>
 </head>
@@ -24,7 +24,7 @@
                   </div>
                   <div class="row">  
                         <div class="large-2 large-offset-2 columns end">    
-                            <a href="#" class="large-button"><span>See my CV</span></a>
+                            <a href="#cv" class="large-button"><span>See my CV</span></a>
                         </div>
                   </div>  
               </div>
@@ -53,44 +53,58 @@
       </div>
        <div class="clearfix"></div>
       <div class="row">
-          <div class="large-4 columns center">
-            <a href="#" class="hoverImage"><img src="img/webDesign1.png" width="150" alt="Web design"/>
-            </a>
+          <div class="large-4 columns center images">
+            <a href="img/big1.jpg" data-lightbox="designs"><img src="img/webDesign1.png" width="150" alt="Web design"/></a> 
           </div>
-          <div class="large-4 columns center">
-            <a href="#" class="hoverImage"><img src="img/emailDesign1.png" width="150" alt="Email design"/>
-            </a>
+          <div class="large-4 columns center images">
+            <a href="img/big2.jpg" data-lightbox="designs"><img src="img/emailDesign1.png" width="150" alt="Email design"/></a>
           </div>
-          <div class="large-4 columns center">
-            <a href="#" class="hoverImage"><img src="img/adDesign1.png" width="150" alt="Ad design"/>
-            </a>
+          <div class="large-4 columns center images">
+            <a href="img/big3.jpg" data-lightbox="designs"><img src="img/adDesign1.png" width="150" alt="Ad design"/></a>
           </div>
       </div> 
       <div class="clearfix"></div>
       <div class="row">
-          <div class="large-4 columns center">
-            <a href="#" class="hoverImage"><img src="img/showcaseDesign1.png" width="150" alt="Web design"/>
-            </a>
+          <div class="large-4 columns center images">
+            <a href="img/big4.jpg" data-lightbox="designs"><img src="img/showcaseDesign1.png" width="150" alt="Web design"/></a>
           </div>
-          <div class="large-4 columns center">
-            <a href="#" class="hoverImage"><img src="img/bcDesign.png" width="150" alt="Email design"/>
-            </a>
+          <div class="large-4 columns center images">
+            <a href="img/big5.jpg" data-lightbox="designs"><img src="img/searchDesign.png" width="150" alt="Email design"/></a>
           </div>
-          <div class="large-4 columns center">
-            <a href="#" class="hoverImage"><img src="img/SignDesign1.png" width="150" alt="Ad design"/>
-            </a>
+          <div class="large-4 columns center images">
+            <a href="img/big6.jpg" data-lightbox="designs"><img src="img/SignDesign1.png" width="150" alt="Ad design"/></a>
           </div>
       </div>   
       <div class="clearfix"></div> 
     </article>
     <div class="clearfix"></div>
     <div class="cv-section">
+      <a name="cv"></a>
       <div class="row">
         <div class="large-12 columns">
             <h4>My CV</h4>
-            <p>This is going to be where my CV goes...</p>
+            <p>While I am working on making my CV look great, please check out the pdf version below.</p>
+            <!-- 
+            </br>
+            <p><strong>Unique Selling Points</strong></p>
+            <ul class="usp">
+              <li>Experience working in a brand new start-up.  I’m not afraid of hard work or try new things that haven’t been done before.</li>
+              <li>I have designed a testing method for tennis rackets, conducted the testing, produced groundbreaking results and had the tennis racket go into development.</li>
+              <li>I am very keen to learn and will put in the time and effort when a new skill is needed.</li>
+            </ul> 
+            </br>
+            <p><strong>Education</strong></p>
+            <p>MSc Sports Engineering <span class="date">Sep 2011 - Aug 2012</span>
+            </br>Merit achieved, <em>Sheffield Hallam University</em></p>
+            -->
         </div>
       </div>
+      <div class="row">
+        <div class="large-12 columns">
+        </br>
+            <a href="cv.pdf" target="_blank" class="large-button">View pdf version</a>
+        </div>
+      </div>      
     </div>
     <div class="clearfix"></div>
     <article class="tech-section">
@@ -116,6 +130,12 @@
                 <p class="f-text">Designed and created by Alex Nicolaides. 2013.
               </div>
         </div>
-    </footer>          
+    </footer>
+
+  <!--JAVASCRIPT TIME-->
+
+  <script src="js/jquery-1.10.2.min.js"></script>
+  <script src="js/lightbox-2.6.min.js"></script>
+
 </body>
 </html>
