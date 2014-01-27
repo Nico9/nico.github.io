@@ -133,7 +133,11 @@ article h4 {
   vertical-align: middle;
   padding: 20px;
 }
-
+strong a:hover {
+  text-decoration: underline;
+  background-color: #f5f5f1;
+  color: #07a4d1;
+}
 
 
 
